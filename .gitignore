@@ -1,0 +1,42 @@
+# Local course material outside the requested student release
+/ForecastingLecture.pptx
+/example/
+
+# Publish only the selected student workbook from this directory.
+# Add explicit exceptions here when releasing further exercise files.
+/exercise/*
+!/exercise/forecasting_exercise.xlsx
+
+# Keep solutions out of the student release, including future copies.
+# Remove these rules deliberately when solutions are ready for release.
+**/*solution*
+**/*Solution*
+
+# macOS and temporary Microsoft Office files
+.DS_Store
+._*
+~$*
+*.tmp
+*.temp
+
+# Python environments and generated caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+
+# Local secrets and editor configuration
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+
+# The offline HTML is self-contained. Students need no other lab files.
+/forecasting-lab/*
+!/forecasting-lab/ForecastingDashboard.html

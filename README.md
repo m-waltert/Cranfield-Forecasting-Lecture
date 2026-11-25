@@ -36,9 +36,3 @@ Solutions are intentionally omitted until the exercise has finished.
 | `exercise/forecasting_exercise.xlsx` | Student exercise workbook |
 
 The HTML file contains all of its data, styling and calculation code. Students do not need the laboratory’s source files, tests, Python scripts, ZIP archive or a local web server.
-
-## Files excluded from this release
-
-The `.gitignore` keeps solutions, the lecture presentation, the local example project, unselected exercise files and laboratory development files out of this student release. It also excludes Office lock files, caches, environments and local secrets.
-
-When releasing solutions, update the solution rules and the exercise allowlist in `.gitignore` first, then stage only the intended solution files.
